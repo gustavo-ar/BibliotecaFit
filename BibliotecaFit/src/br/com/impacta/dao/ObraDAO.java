@@ -108,11 +108,7 @@ public class ObraDAO {
 			stmt.close();
 			return obras;
 		} catch (SQLException e) {
-
 			throw new RuntimeException(e);
-
 		}
-
 	}
-
 }
