@@ -1,5 +1,5 @@
 package br.com.impacta.testes;
 
-public class teste1 {
+public class Teste1 {
 
 }

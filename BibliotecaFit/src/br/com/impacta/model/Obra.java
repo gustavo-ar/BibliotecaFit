@@ -9,7 +9,7 @@ public class Obra {
 	private long idObra;
 	private long idEditora;
 	private String titulo;
-	private Date anoPublicacao;
+	private Calendar anoPublicacao;
 	private String tipoObra;
 
 	private ArrayList<Exemplar> exemplares = new ArrayList<>();
@@ -38,11 +38,11 @@ public class Obra {
 		this.titulo = titulo;
 	}
 
-	public Date getAnoPublicacao() {
+	public Calendar getAnoPublicacao() {
 		return anoPublicacao;
 	}
 
-	public void setAnoPublicacao(Date anoPublicacao) {
+	public void setAnoPublicacao(Calendar anoPublicacao) {
 		this.anoPublicacao = anoPublicacao;
 	}
 
