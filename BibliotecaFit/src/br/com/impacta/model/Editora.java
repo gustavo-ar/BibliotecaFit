@@ -7,7 +7,7 @@ public class Editora {
 	private long idEditora;
 	private String nomeEditora;
 	
-	private HashMap <String,String> parametros = new HashMap<String,String>();
+//	private HashMap <String,String> parametros = new HashMap<String,String>();
 
 	public long getIdEditora() {
 		return idEditora;

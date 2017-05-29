@@ -86,11 +86,11 @@ public class DevolucaoDAO {
 			ResultSet rs = stmt.executeQuery();
 
 			while (rs.next()) {
-				// criando o objeto Editora
+				// criando o objeto Devolucao
 				Devolucao devolucao = new Devolucao();
 				devolucao.setIdDevolucao(rs.getLong("idDevolucao"));
 
-				// montando a data de emprestimo através do Calendar
+				// montando a data através do Calendar
 				Calendar data = Calendar.getInstance();
 				data.setTime(rs.getDate("dataDevolucao"));
 				devolucao.setDataDevolucao(data);
