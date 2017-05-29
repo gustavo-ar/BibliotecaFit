@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class Pessoa {
 
 	private long idPessoa;
-	private long idTipoPessoa;
+//	private long idTipoPessoa;
 	private String nome;
 	private String email;
 	private String telefone;
@@ -22,13 +22,13 @@ public class Pessoa {
 		this.idPessoa = idPessoa;
 	}
 
-	public long getIdTipoPessoa() {
-		return idTipoPessoa;
-	}
-
-	public void setIdTipoPessoa(long idTipoPessoa) {
-		this.idTipoPessoa = idTipoPessoa;
-	}
+//	public long getIdTipoPessoa() {
+//		return idTipoPessoa;
+//	}
+//
+//	public void setIdTipoPessoa(long idTipoPessoa) {
+//		this.idTipoPessoa = idTipoPessoa;
+//	}
 
 	public String getNome() {
 		return nome;
